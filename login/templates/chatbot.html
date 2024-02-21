@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot</title>
+  <!-- Include the Dialogflow Messenger script -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+</head>
+<body>
+  <!-- Dialogflow Messenger component with a "Login" button -->
+  <df-messenger
+    chat-title="TawfeeqChatBot"
+    agent-id="4dfd6f52-a0b9-4de8-a5e5-9346170e7249"
+    language-code="en"
+  >
+    <!-- "Login" button using df-button -->
+    <df-button
+      postback="Login"
+      label="Login"
+    ></df-button>
+  </df-messenger>
+</body>
+</html>
