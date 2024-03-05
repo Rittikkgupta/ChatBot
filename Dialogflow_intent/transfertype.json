@@ -1,0 +1,91 @@
+{
+  "id": "297a797a-1b87-49e1-85da-ba9d93433fab",
+  "name": "transfertype",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "transfertype",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Please Enter the New Transfer No"
+          ],
+          "value": "$transfertype",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you update the transfertype",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1aef36f8-45f0-4e0d-b0fd-26b07539ca93",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to update the Transfer type",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a5be15c8-85d8-47b4-9d50-13bd94a1021b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "transfertype",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "90fb33f2-2780-4565-9f52-4f3b04258666",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

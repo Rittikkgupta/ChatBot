@@ -1,0 +1,91 @@
+{
+  "id": "9fb2031b-414f-4afa-9c44-469f9e996d98",
+  "name": "parkingfee",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "parkingfee",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Enter the Parking fee"
+          ],
+          "value": "$parkingfee",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "parking fee",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "543ceb46-7a35-4a86-b1d7-575678369c88",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to update the parking fees",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2d74ecb6-1579-4e26-89c3-0d883bcdeefe",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "parkingfee",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b7388339-8ca5-48ec-b3e9-cd100b2c7391",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

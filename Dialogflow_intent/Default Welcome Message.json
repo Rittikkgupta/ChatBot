@@ -1,0 +1,213 @@
+{
+  "id": "de7d8948-c312-4b71-ae66-f213969f1b5c",
+  "name": "Default Welcome Message",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Welcome to Tawfeeq Holidays  May I Assist you"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "yes",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8a561874-8c84-4c28-bd6c-24b82d981cd5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good evening",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "01e49039-73cc-417b-9549-16cd2f4aa435",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good morning",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "687e180f-66c1-4bf1-8d4d-6a7d829c1986",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm ",
+          "userDefined": false
+        },
+        {
+          "text": "vinoth",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "a2cc770d-d8e2-4ec1-baec-cb3c69262d89",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am ",
+          "userDefined": false
+        },
+        {
+          "text": "ritik",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "3505195b-8c93-4ffe-a147-020589c08b0b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what can you do",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ddd271fe-465e-445f-8a73-f1ef63657eb0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "halo",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fa60edb0-8ab5-437b-a645-c0939341c6c3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "helo",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0650a654-42ba-4e86-a4d7-f89b6e9c09ce",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5990eff8-d1e9-4b23-8d6d-df326827a250",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "helllo",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "55fcbc30-d1a4-401b-9fed-b5105d757c89",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "95c8a505-b53c-4588-8f35-21973e277014",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hiiii",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c8fefb49-846c-4d0f-ad1a-aec8599e0bd2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hii",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d7c6e420-1a6c-47bf-8d8f-d810ed80733b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

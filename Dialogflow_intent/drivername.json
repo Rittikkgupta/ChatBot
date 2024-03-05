@@ -1,0 +1,210 @@
+{
+  "id": "9c84f63c-5c15-48c3-8082-fff00397f906",
+  "name": "drivername",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "drivername",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Please Enter the Diver Name"
+          ],
+          "value": "$drivername",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "assignmentid",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [
+            "Enter the Assignment ID"
+          ],
+          "value": "$assignmentid",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "assign the driver on <span class=\"selection\" selection-value=\"@request_id\" selection-alias=\"request_id\" selection-user-defined=\"true\" style=\"background-color: rgb(159, 236, 254);\">RP/",
+          "userDefined": false
+        },
+        {
+          "text": "000591",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "</span>",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a1d681ec-ff01-4f5b-80f5-3739b5320ae8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "assign the driver",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4c1e3346-f4c5-40a7-a35a-f7b1c222a674",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "amol",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " is new driver",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d18d946b-9a37-46c7-9870-a9af33281555",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "edit the ",
+          "userDefined": false
+        },
+        {
+          "text": "vinoth",
+          "userDefined": true,
+          "alias": "drivername",
+          "meta": "@sys.any"
+        },
+        {
+          "text": " as a new driver name",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0e3775f2-5d6f-4bc2-9659-0eacbf91e366",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Driver name is ",
+          "userDefined": false
+        },
+        {
+          "text": "sam",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "5ee34f92-4415-4d59-aa9f-b850f7ec7af3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "edit the driver name",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2e52c6c3-ee5a-435a-a05a-42fd7950c69f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "driver",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bba6ea38-337a-45c3-a522-569ee0e16ebd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "driver name",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e6f95b1d-14d3-4b5e-b99e-0921589bc7f9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you want edit the driver name",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "279f967f-f3a3-4905-bb98-b41e9dc49279",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

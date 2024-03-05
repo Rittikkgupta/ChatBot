@@ -1,0 +1,106 @@
+{
+  "id": "14fdb744-e9c4-4efc-87ef-e1d814104586",
+  "name": "overridecost",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "overridecost",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Enter the Override cost"
+          ],
+          "value": "$overridecost",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "assignmentid",
+          "dataType": "@sys.number-integer",
+          "isList": false,
+          "required": false,
+          "prompts": [
+            "Enter the Assignment ID"
+          ],
+          "value": "$assignmentid",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you update the overridecost",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d10ea6fe-43e2-46ba-85da-8768d6aec540",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "overridecost",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b3b7267c-7683-470a-8c15-427fdc703456",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to update the over ride cost",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0dfaccf5-b0bf-451c-a157-7177704caf61",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

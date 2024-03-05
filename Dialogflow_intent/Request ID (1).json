@@ -1,0 +1,183 @@
+{
+  "id": "737d4ac1-38fa-442b-bcf5-89f2f24be043",
+  "name": "Request ID",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "request_id",
+          "dataType": "@request_id",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$request_id",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "payload": {
+              "richContent": [
+                [
+                  {
+                    "options": [
+                      {
+                        "text": "Main Menu"
+                      },
+                      {
+                        "text": "View",
+                        "action": "VIEW_ACTION"
+                      },
+                      {
+                        "text": "Edit"
+                      },
+                      {
+                        "text": "Try Again-Login"
+                      }
+                    ],
+                    "type": "chips"
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "4",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " Request ID: RP/",
+          "userDefined": false
+        },
+        {
+          "text": "000594",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "36d8e709-8430-4bba-ba72-c21c49b9ed40",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "3",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " Request ID: ",
+          "userDefined": false
+        },
+        {
+          "text": "RP/000593",
+          "userDefined": false,
+          "alias": "request_id",
+          "meta": "@request_id"
+        }
+      ],
+      "count": 0,
+      "id": "6d3bda67-1d98-465e-afe4-7df1d0d3b27a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "2",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " Request ID:<span class=\"selection\" selection-value=\"@request_id\" selection-alias=\"request_id\" selection-user-defined=\"true\" style=\"background-color: rgb(175, 255, 200);\"> RP/",
+          "userDefined": false
+        },
+        {
+          "text": "000592",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "</span>",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "772372dc-fd7b-46ba-841f-fd866eec1b74",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "1",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " Request ID: ",
+          "userDefined": false
+        },
+        {
+          "text": "RP/000591",
+          "userDefined": false,
+          "alias": "request_id",
+          "meta": "@request_id"
+        }
+      ],
+      "count": 0,
+      "id": "2f18710c-85c4-4030-a62d-94017eea2f5f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

@@ -1,0 +1,120 @@
+{
+  "id": "4ce6dd02-7ded-40b9-aa13-61fe399946b8",
+  "name": "Totalsalevalue",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "totalsalevalue",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Enter the new Total salevalue"
+          ],
+          "value": "$totalsalevalue",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "change the total ",
+          "userDefined": false
+        },
+        {
+          "text": "sal",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " value ",
+          "userDefined": false
+        },
+        {
+          "text": "80",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "de070da3-604a-4e29-99d4-9d0569ce7510",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Totalsalevalue",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fa96ceb3-9ba0-4afb-ab35-e7a94e63d9fc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to change the Total sale value",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6491e5e6-0158-462f-8a27-8e173142ac2b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

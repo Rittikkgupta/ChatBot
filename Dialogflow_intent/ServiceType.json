@@ -1,0 +1,118 @@
+{
+  "id": "5d543c38-e0ff-4805-8030-aaa414eb9e7e",
+  "name": "ServiceType",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "ServiceType",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Enter the new Service Type"
+          ],
+          "value": "$ServiceType",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "assinmentid",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Enter the Assignment id"
+          ],
+          "value": "$assignmentid",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to Update the ServiceType",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dc234f13-4a0c-42fd-b293-68d0b1f5e337",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "service type",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f8d5edf1-5c55-4b7a-8fb0-8851031fd77c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to update the services type",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fc62bfcd-6a75-4591-bc48-837e10e551f2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ServiceType",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "73ef1f49-4666-41d4-8a27-dad07e742e00",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

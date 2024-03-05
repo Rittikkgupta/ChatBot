@@ -1,0 +1,106 @@
+{
+  "id": "713e03b6-009b-4693-aa0b-eb18298db517",
+  "name": "Status",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "assignmentid",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [
+            "Enter the Assignment id"
+          ],
+          "value": "$assignmentid",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "status",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Enter the New Status"
+          ],
+          "value": "$status",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "update the status",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7f49bd1d-a6cb-40fd-9088-5f9a6119bfb7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Status",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "713b94c4-e4b1-48b2-9aca-1cf103e96f03",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to update status",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "610c231a-18de-4e63-86b6-5de68f1e1a39",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

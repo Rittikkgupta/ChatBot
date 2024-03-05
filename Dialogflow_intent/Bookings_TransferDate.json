@@ -1,0 +1,430 @@
+{
+  "id": "a413da4a-601c-4b42-8264-84f6c2d8f0c1",
+  "name": "Bookings_TransferDate",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "booking"
+    },
+    {
+      "name": "Bookings_TransferDate"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "Date",
+          "dataType": "@sys.date",
+          "isList": false,
+          "required": false,
+          "prompts": [
+            "Please Enter the Transferdate YY/MM/DD",
+            "Enter the Date for the Booking List YY/MM/DD",
+            "Enter the Date YY/MM/DD"
+          ],
+          "value": "$Date",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to see again request id",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8474d037-74c0-4027-9ed9-70a6d4439e04",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to see again booking list",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4e94a5da-a634-4dba-9a1c-81ad380c5a61",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Try Another Booking Request date",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "364f7b63-3e92-4fc7-b301-18e17c28d629",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Try Another Request ID",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "47528ef3-b96e-4173-8c14-9305a47554e2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "14/11/2023",
+          "userDefined": false,
+          "alias": "Date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "06baa481-dae2-40d5-8cae-a8c5bd6b0e0a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "2023/11/14",
+          "userDefined": false,
+          "alias": "Date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "2756d3f7-9655-4b3a-9773-0e3bc2491443",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "11/14/2023",
+          "userDefined": false,
+          "alias": "Date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 2,
+      "id": "031d17b6-5f27-49bf-9196-c2245c7732fa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Booking Details- Date",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "49e5bad8-d2ae-4339-a08f-61f3c70b748e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Booking List",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9ca66c3c-10d5-435c-b9a2-779d544ed3c9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want bookings",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8a415879-0772-419a-b41a-b4b06d6cc306",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "show me bookings",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bdd49a97-7f4f-4ece-9d55-d2c6cdb2cb64",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "bookings",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "c85bf837-2d3b-4384-b3dc-620e0751ff04",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "transderdate ",
+          "userDefined": false
+        },
+        {
+          "text": "11/14/2023",
+          "userDefined": false,
+          "alias": "Date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "43ee8185-46fa-4961-b943-1861d6cdbb5d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to see booking list",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6a8f0e77-1b25-466f-b11f-2b24339acd57",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to see bookig list",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b1d264f0-d840-4e47-85c1-8966b3fa744f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "show me booking of ",
+          "userDefined": false
+        },
+        {
+          "text": "14/11/2023",
+          "userDefined": true,
+          "alias": "Date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 1,
+      "id": "c59c43d1-efd2-4ef3-9723-ca02224f1c1b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many bookings on ",
+          "userDefined": false
+        },
+        {
+          "text": "08/08/2023",
+          "userDefined": true,
+          "alias": "Date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "643e638e-eac3-47d7-8a5b-60836892127e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "bookings ",
+          "userDefined": false
+        },
+        {
+          "text": "2023-11-07",
+          "userDefined": true,
+          "alias": "Date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "b3c752ff-09cc-486c-b014-48493bcfd544",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "show bookings on ",
+          "userDefined": false
+        },
+        {
+          "text": "2023-11-16",
+          "userDefined": true,
+          "alias": "Date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "13603e56-e935-47aa-a390-ffd396740ac0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to see bookings list on this ",
+          "userDefined": false
+        },
+        {
+          "text": "2023-11-14",
+          "userDefined": true,
+          "alias": "Date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "acd61f23-36d1-4095-b641-2e8f20e68dc2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "list",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c87e6d26-2446-4ad5-a8b3-1ab86d958fe1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "bookings list",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "b408a8d1-c2db-4645-a11e-35035586036a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "transfer",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5c4b3697-0584-40a8-8470-3d8dc756f3ad",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "traferdate",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "825726af-6b0e-46e0-8108-03b46442d4b2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tansferdate",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2f8d3608-3b07-472a-9146-d1c4abe190fc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "date",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "a15832e9-9106-4ea4-8b3a-7eb29752e365",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Transferdate",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4c76dfb0-833f-4895-8e57-a1c9aa918557",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

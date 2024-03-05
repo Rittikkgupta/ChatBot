@@ -1,0 +1,291 @@
+{
+  "id": "8d7fe17d-21bc-4640-9b4d-79ec5485c2e2",
+  "name": "bookingdetails",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "assignmentid",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [
+            "Please Enter the Asssignment ID"
+          ],
+          "value": "$assignmentid",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "tlineno",
+          "dataType": "@sys.number-integer",
+          "isList": false,
+          "required": false,
+          "prompts": [
+            "Enter The Tlineno"
+          ],
+          "value": "$tlineno",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "requestid",
+          "dataType": "@request_id",
+          "isList": false,
+          "required": false,
+          "prompts": [
+            "Enter the Request ID"
+          ],
+          "value": "$requestid",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "View",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3c334132-fde2-4c87-89fe-6e24e55a4886",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "booking detils",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a2fa5070-0c15-40a2-93dd-924f19addee8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "show ",
+          "userDefined": false
+        },
+        {
+          "text": "me",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " booking details of ",
+          "userDefined": false
+        },
+        {
+          "text": "11/14/2023",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "69e57326-50a7-4872-afd7-5533a849478e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "show me booking details of ",
+          "userDefined": false
+        },
+        {
+          "text": "14/11/2023",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " and request id ",
+          "userDefined": false
+        },
+        {
+          "text": "rp/000591",
+          "userDefined": true,
+          "alias": "requestid",
+          "meta": "@request_id"
+        },
+        {
+          "text": "  transfertype ",
+          "userDefined": false
+        },
+        {
+          "text": "arrival",
+          "userDefined": true,
+          "alias": "assignmentid",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " tline no is ",
+          "userDefined": false
+        },
+        {
+          "text": "1",
+          "userDefined": true,
+          "alias": "tlineno",
+          "meta": "@sys.number-integer"
+        }
+      ],
+      "count": 0,
+      "id": "7f5d0ece-ce19-4b78-84a1-0be00bdb7e4c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": " transfertype is ",
+          "userDefined": false
+        },
+        {
+          "text": "departure",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "6bc38119-ec73-4618-9173-f3e1985fa037",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "request id is<span class=\"selection\" selection-value=\"@sys.any\" selection-alias=\"requestid\" selection-user-defined=\"true\" style=\"background-color: rgb(159, 236, 254);\"> RP/",
+          "userDefined": false
+        },
+        {
+          "text": "000691",
+          "userDefined": true,
+          "alias": "requestid",
+          "meta": "@request_id"
+        },
+        {
+          "text": "</span>",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "40cd9f77-a9bd-42f7-948e-e684339ba40a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "the transfertype is ",
+          "userDefined": false
+        },
+        {
+          "text": "ARRIVAL",
+          "userDefined": true,
+          "alias": "assignmentid",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "452cc035-6fe3-4de0-aba3-54f7a340c282",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to see booking of this ",
+          "userDefined": false
+        },
+        {
+          "text": "RP/000593",
+          "userDefined": true,
+          "alias": "requestid",
+          "meta": "@request_id"
+        }
+      ],
+      "count": 0,
+      "id": "efaba218-cb96-4bb9-ae53-f4ad0705adb3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to see details of this ",
+          "userDefined": false
+        },
+        {
+          "text": "14/11/2023",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "7433e383-60d4-41f3-a3bc-9d76eb1486d2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Bookings details",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "62c07f63-a8c6-4f1d-9b53-472adf10186e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

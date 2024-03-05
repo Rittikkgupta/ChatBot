@@ -1,0 +1,106 @@
+{
+  "id": "6cbfa668-1070-44ad-82af-633c736cc915",
+  "name": "remark",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "remark",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Enter the Remark"
+          ],
+          "value": "$remark",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "assignmentid",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": false,
+          "prompts": [
+            "Enter the Assigment id"
+          ],
+          "value": "$assignmentid",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to update the remark",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "83fb0b15-78dc-4e25-9cbb-d57ec2e495b6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Update the remark",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f23f7551-ce48-4ef2-8480-a65a37ba2e65",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "remark",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b834dce2-d99a-434e-ae67-1b7c84354343",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

@@ -1,0 +1,94 @@
+{
+  "id": "92737797-bad0-474c-9525-2b347cefcabc",
+  "name": "Cost price",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "1040",
+          "name": "assignmentid",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [
+            "Please Enter the Assignment ID"
+          ],
+          "value": "$assignmentid",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "costprice",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Please Enter the New Cost Price"
+          ],
+          "value": "$costprice",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "cost price",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5e902bbd-a386-4c62-b50d-679aaf0826a1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to edit the cost price",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "501f1dbe-f26b-4b32-b6ed-92314d02e64a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

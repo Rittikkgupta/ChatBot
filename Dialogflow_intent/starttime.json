@@ -1,0 +1,118 @@
+{
+  "id": "2c473026-8554-4d40-8262-605a089af7f0",
+  "name": "starttime",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "starttime",
+          "dataType": "@sys.date",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Enter the New Start date YY/MM/DD"
+          ],
+          "value": "$starttime",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "assignmentid",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [
+            "Enter the Assignment ID"
+          ],
+          "value": "$assignmentid",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you update the start time",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cf269aec-b817-4460-b08f-29b1908bbe4b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "start time",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "88fd728e-562f-46d1-bb89-3a3829ce55be",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "update the start time",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "93b1df4a-c3f4-40d7-b7ab-58c7d5d61e96",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to update the start tie",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fc0ca3ee-b278-4090-bea4-e6c6c2463dc4",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

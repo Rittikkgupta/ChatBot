@@ -1,0 +1,106 @@
+{
+  "id": "9797709f-05ac-4523-a119-8ac91f52e6bc",
+  "name": "endtime",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "endtime",
+          "dataType": "@sys.date-time",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Enter The  End Time YY/MM/DD"
+          ],
+          "value": "$endtime",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "assignmentid",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [
+            "Enter the Assignment ID"
+          ],
+          "value": "$assignmentid",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to update the end time",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "00d850da-b75d-45c1-bb2b-9f6e41426532",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "END Time",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3556e3bd-fcf2-4ba8-9f6d-6b714d822a09",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "endtime",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ca8bb4d6-23f9-4834-96c0-cc252b198605",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}
